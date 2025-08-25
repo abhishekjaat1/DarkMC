@@ -28,7 +28,7 @@ client.on("messageCreate", async (message) => {
   if (message.content.toLowerCase() === "!players") {
     try {
       const res = await fetch(
-        `https://api.mcsrvstat.us/2/${in.horizonnodes.net}:${25577}`
+        `https://api.mcsrvstat.us/2/${SERVER_IP}:${SERVER_PORT}`
       );
       const data = await res.json();
 
@@ -54,4 +54,4 @@ client.on("messageCreate", async (message) => {
   }
 });
 
-client.login(TOKEN);
+client.login("MTQwOTQ1MzgyNjE2Mjk1NDMwMw.GDT-ci.k17r3VTxE-5gFB6GC_Oqa7JDHztHZgctbDHEdg");
