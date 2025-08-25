@@ -4,7 +4,7 @@ const fetch = require("node-fetch");
 // ============================
 // CONFIG
 // ============================
-const TOKEN = "YOUR_BOT_TOKEN"; // <-- apna bot token daalna
+const TOKEN = "MTQwOTQ1MzgyNjE2Mjk1NDMwMw.GDT-ci.k17r3VTxE-5gFB6GC_Oqa7JDHztHZgctbDHEdg"; // <-- apna bot token daalna
 const SERVER_IP = "in.horizonnodes.net"; // <-- apna server IP
 const SERVER_PORT = 25577; // <-- default port
 
