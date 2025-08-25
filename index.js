@@ -5,8 +5,8 @@ const fetch = require("node-fetch");
 // CONFIG
 // ============================
 const TOKEN = "YOUR_BOT_TOKEN"; // <-- apna bot token daalna
-const SERVER_IP = "play.fruitsmp.fun"; // <-- apna server IP
-const SERVER_PORT = 25565; // <-- default port
+const SERVER_IP = "in.horizonnodes.net"; // <-- apna server IP
+const SERVER_PORT = 25577; // <-- default port
 
 // ============================
 // DISCORD CLIENT
@@ -28,7 +28,7 @@ client.on("messageCreate", async (message) => {
   if (message.content.toLowerCase() === "!players") {
     try {
       const res = await fetch(
-        `https://api.mcsrvstat.us/2/${SERVER_IP}:${SERVER_PORT}`
+        `https://api.mcsrvstat.us/2/${in.horizonnodes.net}:${25577}`
       );
       const data = await res.json();
 
